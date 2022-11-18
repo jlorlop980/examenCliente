@@ -1,0 +1,11 @@
+{
+    "source":{
+        "include": ["./src/ej1","./src/ej2"],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "eexlude":"node_modules/|docs"
+    },
+    "pluguins":[],
+    "opts":{
+        "destination": "docs/"
+    }
+}
